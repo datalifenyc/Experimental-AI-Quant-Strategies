@@ -1,0 +1,19 @@
+# requirements.txt - Dependencies for SMA Outfit Trading Strategy
+
+# Core backtesting library
+backtrader
+
+# Data retrieval
+yfinance
+
+# Broker integration (optional based on selected broker)
+requests  # Required for API interactions (Schwab, TradingView)
+robin-stocks  # Required for Robinhood integration (unofficial API)
+
+# Machine learning (optional, only needed for advanced strategy with ML filtering)
+sklearn
+pickle-mixin
+
+# Testing dependencies
+pytest  # Required for unit testing
+unittest  # Included in standard Python library but required for mocking
